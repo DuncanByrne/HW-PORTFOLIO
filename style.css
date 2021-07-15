@@ -1,0 +1,19 @@
+body {
+  background-color: lightslategray;
+  color: lemonchiffon;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-me {
+  flex-direction: column;
+}
