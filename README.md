@@ -12,6 +12,7 @@ In this
 In my third commit I made to the portfolio, I had stated that I wasn't able to get some things in the rught positon like i wanted. 
 I wanted the boxes under my mini project to be placed directly under, I will fix this in the morning and make another commit.
 
+link to the website:https://duncanbyrne.github.io/HW2-PORTFOLIO/
 
 
 
