@@ -1,6 +1,6 @@
 body {
   background-color: lightslategray;
-  color: lemonchiffon;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
 }
@@ -22,12 +22,178 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: darkblue;
+  background-color: lightgray;
   position: relative;
   min-height: 175px;
 }
 
 nav {
+  position: absolute;
   list-style-type: none;
   color: white;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  list-style: none;
+  height: 10vh;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* projects */
+.project-container {
+  width: 100%;
+  height: auto;
+}
+
+.project-header {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.mini-project {
+  width: 1000px;
+  height: 400px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/mini.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.practice-project {
+  width: 750px;
+  height: 400px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/practice.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.refactor-project {
+  width: 750px;
+  height: 400px;
+  float: right;
+  padding-right: 30%;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex: 33.33%;
+  padding: 5px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/refactor.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  left: 0%;
+  bottom: 0%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+/* about */
+
+.about-container {
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.about-image {
+  height: 450px;
+  width: 400px;
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/me.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.about-text {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+  width: 40%;
+  font-size: 1rem;
+  margin-left: 100px;
+}
+/* contact */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 30%;
+  margin-top: 25%;
+  margin-bottom: 30%;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name {
+  margin-top: 10px;
+  color: navy;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 25px 0;
+  color: cornflowerblue;
 }
