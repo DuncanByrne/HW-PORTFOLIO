@@ -15,4 +15,6 @@ I wanted the boxes under my mini project to be placed directly under, I will fix
 link to the website:https://duncanbyrne.github.io/HW2-PORTFOLIO/
 
 
+repository link: https://github.com/DuncanByrne/HW2-PORTFOLIO
+
 
