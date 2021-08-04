@@ -91,14 +91,14 @@ li a {
 }
 
 .mini-project {
-  width: 1000px;
+  width: 600px;
   height: 700px;
   max-width: auto;
   background: white;
   position: relative;
   box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
   border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/mini.png);
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/STKR.png);
 
   background-size: cover;
   background-position: center;
@@ -116,7 +116,7 @@ li a {
   position: relative;
   box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
   border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/practice.png);
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/Quiz.png);
   background-size: cover;
   background-position: center;
 }
@@ -139,7 +139,7 @@ li a {
   position: relative;
   box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
   border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/refactor.png);
+  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/Planner.png);
   background-size: cover;
   background-position: center;
 }
