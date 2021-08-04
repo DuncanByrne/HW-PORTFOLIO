@@ -7,14 +7,31 @@ better understanding of what I have done.
 We were given this task to show ourselves  and our work, to recruiters for future jobs.
 I started with using basic HTML and progressing into the CSS work. After this added :hover to some of my images
 within the portfolio, so when the user hovered their mouse over the image they would get a direct link to the website.
-In this 
 
-In my third commit I made to the portfolio, I had stated that I wasn't able to get some things in the rught positon like i wanted. 
-I wanted the boxes under my mini project to be placed directly under, I will fix this in the morning and make another commit.
+
+DIRECTIONS
+
+
+<img width="1371" alt="Screen Shot 2021-07-15 at 9 15 35 AM" src="https://user-images.githubusercontent.com/85514179/125794322-d9872b06-16a9-4d12-9329-cfdb8502d46d.png">
+
+
+
+
+
+
+
+
 
 link to the website:https://duncanbyrne.github.io/HW2-PORTFOLIO/
 
 
 repository link: https://github.com/DuncanByrne/HW2-PORTFOLIO
+
+
+
+
+screenshots
+
+<img width="1435" alt="Screen Shot 2021-08-03 at 8 52 15 PM" src="https://user-images.githubusercontent.com/85514179/128104681-5ca495a2-7e57-4c1c-8c41-f2195d2379f3.png">
 
 
