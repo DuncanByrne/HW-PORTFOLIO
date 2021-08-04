@@ -32,16 +32,6 @@ repository link: https://github.com/DuncanByrne/HW2-PORTFOLIO
 
 screenshots
 
-<img width="1436" alt="Screen Shot 2021-07-15 at 9 10 40 AM" src="https://user-images.githubusercontent.com/85514179/125793864-12772e83-f753-45d7-9525-8662e3f2abb1.png">
-
-
-
-<img width="1438" alt="Screen Shot 2021-07-15 at 9 10 50 AM" src="https://user-images.githubusercontent.com/85514179/125793980-b9e27ba8-6a64-4e72-a4ab-11f40b1c6880.png">
-
-
-
-
-<img width="1438" alt="Screen Shot 2021-07-15 at 9 11 01 AM" src="https://user-images.githubusercontent.com/85514179/125794157-d5435284-d950-4542-819e-f9372a413c08.png">
-
+<img width="1435" alt="Screen Shot 2021-08-03 at 8 52 15 PM" src="https://user-images.githubusercontent.com/85514179/128104681-5ca495a2-7e57-4c1c-8c41-f2195d2379f3.png">
 
 
