@@ -1,224 +1,187 @@
-* {
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
-}
-
 body {
-  background-color: lightslategray;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+}
+
+h2 {
   color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.about-me {
-  flex-direction: column;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: lightgray;
-  position: relative;
-  min-height: 175px;
-}
-
-nav {
-  position: absolute;
-  list-style-type: none;
-  color: white;
-  width: 100%;
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10%;
-  list-style: none;
-  height: 10vh;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-#name {
-  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 20px;
   font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 20px;
 }
 
-/* projects */
+.navbar-brand {
+  padding: 10px 20px;
+  background-color: whitesmoke;
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 15.5%;
 }
 
-.project-container {
-  width: 100%;
-  height: auto;
+a:link {
+  color: lightgrey;
+  text-decoration: none;
 }
 
-.project-header {
-  font-size: 4rem;
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: bold;
+}
+
+.navbar-nav {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: lemonchiffon;
+}
+
+#navbarNav {
+  padding: 10px;
+  margin-left: 25.5%;
+}
+
+.divider {
+  color: whitesmoke;
+}
+
+/*Styling for page content*/
+
+#about-me {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.img-thumbnail {
+  float: left;
+}
+
+#bio-content {
+  margin-top: 20px;
+  clear: both;
+}
+
+form {
   margin: 20px;
+  padding: 20px;
 }
 
-.projects {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: wrap;
-}
-
-.mini-project {
-  width: 600px;
-  height: 700px;
-  max-width: auto;
-  background: white;
-  position: relative;
-  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/STKR.png);
-
-  background-size: cover;
-  background-position: center;
-}
-
-.practice-project {
-  width: 1500px;
-  height: 400px;
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-  float: inherit;
-  background: white;
-  position: relative;
-  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/Quiz.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.refactor-project {
-  width: 1500px;
-  height: 400px;
-
-  float: inline-start;
-  padding-right: 30%;
-  top: 60px;
-  display: flex;
-  flex: 1;
-  padding: 1em;
-  border: solid;
-  flex: 33.33%;
-  padding: 5px;
-  background-attachment: fixed;
-  background: white;
-  position: relative;
-  box-shadow: -15px 7px 30px (0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/Planner.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.text-container {
-  position: absolute;
-  height: 75px;
-  width: 100%;
-  left: 0%;
-  bottom: 0%;
+#contact-form {
   background-color: white;
-  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 960px;
+  padding: 20px;
 }
 
-.text-container:hover {
-  height: 250px;
+#button-color {
+  background-color: #4aaaa5;
+  color: white;
 }
 
-/* about */
-
-.about-container {
-  margin: 10%;
-  width: 80%;
-  height: auto;
-  background-color: white;
-  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-}
-.about-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: wrap;
+#portfolio-content {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 960px;
+  padding: 20px;
 }
 
-.about-image {
-  height: 450px;
-  width: 400px;
-  background-image: url(/Users/duncanbyrne/Desktop/HW2_PORTFOLIO/me.jpeg);
-  background-size: cover;
-  background-position: center;
-}
-.about-text {
-  display: flex;
-  align-items: flex-end;
-  height: auto;
-  width: 40%;
-  font-size: 1rem;
-  margin-left: 100px;
-}
-/* contact */
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  width: 30%;
-  margin-top: 25%;
-  margin-bottom: 30%;
+.navbar-text {
+  color: black !important;
+  text-align: center !important;
+  margin: 0 auto;
 }
 
-p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    min-width: 100%;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  #navbarNav {
+    display: inline;
+    margin-left: 25% !important;
+    list-style: none;
+  }
+
+  #about-me {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
+
+  #contact-form {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
+
+  #portfolio-content {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
 }
 
-.contact-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+@media screen and (max-width: 768px) {
+  #navbarNav {
+    display: flex;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  #about-me {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
+
+  #contact-form {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
+
+  #portfolio-content {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
 }
 
-.name {
-  margin-top: 10px;
-  color: navy;
-  font-size: 2rem;
-}
+@media screen and (max-width: 980px) {
+  .navbar-nav {
+    display: inline-block;
+    float: left;
+  }
 
-.content {
-  padding: 25px 0;
-  color: cornflowerblue;
+  .navbar-brand {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
 }
